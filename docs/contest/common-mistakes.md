@@ -186,6 +186,10 @@ author: H-J-Granger, orzAtalod, ksyx, Ir1d, Chrogeek, Enter-tainer, yiyangit
         f[a] = b;              // 错误
         f[find(a)] = find(b);  // 正确
         ```
+-   明明已经注释了$ debug $ 但却直接就提交了
+
+    -   示例：
+        for(int i=1;i<=a;++i) printf("%d ",vis[i]);printf("\n");//debug
 
 ### 会导致 RE
 
